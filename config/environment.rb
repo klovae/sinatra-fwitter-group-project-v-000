@@ -15,7 +15,7 @@ end
 configure :production do
 
  ActiveRecord::Base.establish_connection(
-   :adapter  => "postgres",
+   :adapter  => "postgresql",
    :database => "db/production.db"
  )
 end
